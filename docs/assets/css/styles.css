@@ -211,12 +211,14 @@ h3 { font-size: 20px; }
   margin: 0;
   display: flex;
   justify-content: center;
+  background: transparent;
 }
 
 .hero-visual img {
   display: block;
   width: min(100%, 430px);
   height: auto;
+  background: transparent;
 }
 
 section { padding: 74px 0; }
