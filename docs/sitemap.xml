@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ssl.opshome.run/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://ssl.opshome.run/privacy/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://ssl.opshome.run/support/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://ssl.opshome.run/about/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <priority>0.5</priority>
   </url>
 </urlset>
