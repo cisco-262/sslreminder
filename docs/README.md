@@ -21,8 +21,8 @@ The `CNAME` file is already included.
 
 ## App Store URL
 
-Replace the placeholder App Store links in `index.html` after the App Store listing is live:
+The homepage App Store buttons point to the live SSL Reminder listing:
 
 ```text
-https://apps.apple.com/
+https://apps.apple.com/us/app/ssl-reminder/id6786519365
 ```
