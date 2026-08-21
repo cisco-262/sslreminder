@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wifi.opshome.run/sitemap.xml
+Sitemap: https://ssl.opshome.run/sitemap.xml
