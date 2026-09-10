@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="/docs/assets/images/ssl-reminder-logo.png" alt="SSL Reminder Logo" width="120">
+<img src="/docs/assets/images/ssl-reminder-logo.png" alt="SSL Certificate Monitor Logo" width="120">
 
-# SSL Reminder
+# SSL Certificate Monitor
 
 **Never Miss an SSL Certificate Expiry**  
 **不要再错过 SSL 证书到期**
@@ -24,7 +24,7 @@ A lightweight iPhone app for public SSL/TLS certificate expiry monitoring, daily
 
 <br>
 
-<img src="/docs/assets/images/ssl-reminder-hero-0492-520.webp" alt="SSL Reminder iPhone app showing certificate health and expiry status" width="300">
+<img src="/docs/assets/images/ssl-certificate-monitor-hero-520.png" alt="SSL Certificate Monitor iPhone app showing certificate health and expiry status" width="300">
 
 </div>
 
@@ -34,7 +34,7 @@ A lightweight iPhone app for public SSL/TLS certificate expiry monitoring, daily
 
 ### Overview
 
-**SSL Reminder** is a focused iPhone app for developers, webmasters, indie makers, and homelab users who want reliable SSL/TLS certificate expiry reminders without setting up a large monitoring platform.
+**SSL Certificate Monitor** is a focused iPhone app for developers, webmasters, indie makers, and homelab users who want reliable SSL/TLS certificate expiry reminders without setting up a large monitoring platform.
 
 Add your public certificate targets, let the cloud service check them every day, and receive iPhone push notifications before certificates expire or when checks fail.
 
@@ -57,7 +57,7 @@ Add your public certificate targets, let the cloud service check them every day,
    Enter the public HTTPS domain and port you want to monitor.
 
 2. **Daily cloud checks run automatically**  
-   SSL Reminder retrieves the public certificate status and updates its latest expiry information.
+   SSL Certificate Monitor retrieves the public certificate status and updates its latest expiry information.
 
 3. **Receive iPhone notifications**  
    The app sends reminders before expiry and alerts when supported checks fail.
@@ -67,7 +67,7 @@ Add your public certificate targets, let the cloud service check them every day,
 
 ### Certificate Information
 
-For each monitored target, SSL Reminder can display:
+For each monitored target, SSL Certificate Monitor can display:
 
 - Certificate status
 - Expiry date
@@ -88,11 +88,11 @@ The built-in Certificate Health Report provides a compact overview of your submi
 - Failed checks
 - Priority issues that should be reviewed first
 
-SSL Reminder keeps this report intentionally simple. It is designed for certificate expiry awareness rather than full infrastructure monitoring.
+SSL Certificate Monitor keeps this report intentionally simple. It is designed for certificate expiry awareness rather than full infrastructure monitoring.
 
 ### Who It Is For
 
-SSL Reminder is suitable for:
+SSL Certificate Monitor is suitable for:
 
 - Developers maintaining websites and APIs
 - Webmasters managing several domains
@@ -102,7 +102,7 @@ SSL Reminder is suitable for:
 
 ### Privacy-First Design
 
-SSL Reminder is designed to collect only the information required to provide cloud certificate checks and alerts.
+SSL Certificate Monitor is designed to collect only the information required to provide cloud certificate checks and alerts.
 
 When cloud monitoring is enabled, the service may process:
 
@@ -112,7 +112,7 @@ When cloud monitoring is enabled, the service may process:
 - Certificate status summaries
 - Temporary detailed check records
 
-SSL Reminder does **not** collect:
+SSL Certificate Monitor does **not** collect:
 
 - Server passwords
 - Certificate private keys
@@ -126,11 +126,11 @@ Read the complete [Privacy Policy](https://ssl.opshome.run/privacy/).
 
 ### Monitoring Scope and Limitations
 
-SSL Reminder cloud monitoring is intended for **public SSL/TLS certificates**.
+SSL Certificate Monitor cloud monitoring is intended for **public SSL/TLS certificates**.
 
-Private LAN, VPN-only, NAS, Proxmox, router, internal dashboard, or other non-public targets may not be reachable from the cloud checker and are not suitable for long-term monitoring in SSL Reminder.
+Private LAN, VPN-only, NAS, Proxmox, router, internal dashboard, or other non-public targets may not be reachable from the cloud checker and are not suitable for long-term monitoring in SSL Certificate Monitor.
 
-SSL Reminder does not replace:
+SSL Certificate Monitor does not replace:
 
 - Your certificate authority
 - Server or reverse-proxy configuration
@@ -156,15 +156,15 @@ OpsHome NOC provides visibility for:
 
 ### App Availability
 
-SSL Reminder is available free on the App Store and is designed for iPhone.
+SSL Certificate Monitor is available free on the App Store and is designed for iPhone.
 
-[Download SSL Reminder on the App Store](https://apps.apple.com/us/app/ssl-reminder/id6786519365)
+[Download SSL Certificate Monitor on the App Store](https://apps.apple.com/us/app/ssl-reminder/id6786519365)
 
 ### Support
 
 For support, privacy questions, or troubleshooting:
 
-- Visit the [SSL Reminder Support page](https://ssl.opshome.run/support/)
+- Visit the [SSL Certificate Monitor Support page](https://ssl.opshome.run/support/)
 - Include the app version, iOS version, and a short description of the issue
 - Do not send private keys, passwords, or sensitive server credentials
 
@@ -174,7 +174,7 @@ For support, privacy questions, or troubleshooting:
 
 ### 产品介绍
 
-**SSL Reminder** 是一款专注 SSL/TLS 证书到期提醒的 iPhone 应用，适合开发者、站长、独立开发者和 Homelab 用户。
+**SSL Certificate Monitor** 是一款专注 SSL/TLS 证书到期提醒的 iPhone 应用，适合开发者、站长、独立开发者和 Homelab 用户。
 
 添加公开证书目标后，云端服务会每天检测证书状态，并在证书即将到期或检测失败时发送 iPhone 推送通知，无需部署复杂的完整监控平台。
 
@@ -197,7 +197,7 @@ For support, privacy questions, or troubleshooting:
    输入需要监控的公开 HTTPS 域名和端口。
 
 2. **每日执行云端检测**  
-   SSL Reminder 获取公开证书状态，并更新最新的到期信息。
+   SSL Certificate Monitor 获取公开证书状态，并更新最新的到期信息。
 
 3. **接收 iPhone 推送**  
    证书临近到期或支持的检测发生失败时，应用发送提醒。
@@ -228,11 +228,11 @@ For support, privacy questions, or troubleshooting:
 - 检测失败目标
 - 应优先处理的问题
 
-SSL Reminder 有意保持报告简单清晰。它专注于证书到期风险，而不是完整基础设施监控。
+SSL Certificate Monitor 有意保持报告简单清晰。它专注于证书到期风险，而不是完整基础设施监控。
 
 ### 适合人群
 
-SSL Reminder 适合：
+SSL Certificate Monitor 适合：
 
 - 维护网站和 API 的开发者
 - 管理多个域名的站长
@@ -242,7 +242,7 @@ SSL Reminder 适合：
 
 ### 隐私优先设计
 
-SSL Reminder 只处理提供云端证书检测和推送提醒所需的信息。
+SSL Certificate Monitor 只处理提供云端证书检测和推送提醒所需的信息。
 
 启用云端监控后，服务可能处理：
 
@@ -252,7 +252,7 @@ SSL Reminder 只处理提供云端证书检测和推送提醒所需的信息。
 - 证书状态摘要
 - 临时详细检测记录
 
-SSL Reminder **不会收集**：
+SSL Certificate Monitor **不会收集**：
 
 - 服务器密码
 - 证书私钥
@@ -266,11 +266,11 @@ SSL Reminder **不会收集**：
 
 ### 监控范围与限制
 
-SSL Reminder 的云端监控面向**公开 SSL/TLS 证书**。
+SSL Certificate Monitor 的云端监控面向**公开 SSL/TLS 证书**。
 
-局域网、仅 VPN 可访问、NAS、Proxmox、路由器、内部管理面板或其他非公开目标，可能无法被云端检测服务访问，因此不适合使用 SSL Reminder 进行长期云端监控。
+局域网、仅 VPN 可访问、NAS、Proxmox、路由器、内部管理面板或其他非公开目标，可能无法被云端检测服务访问，因此不适合使用 SSL Certificate Monitor 进行长期云端监控。
 
-SSL Reminder 不能替代：
+SSL Certificate Monitor 不能替代：
 
 - 证书颁发机构
 - 服务器或反向代理配置
@@ -296,20 +296,25 @@ OpsHome NOC 支持：
 
 ### App Store
 
-SSL Reminder 可在 App Store 免费下载，并针对 iPhone 设计。
+SSL Certificate Monitor 可在 App Store 免费下载，并针对 iPhone 设计。
 
-[在 App Store 下载 SSL Reminder](https://apps.apple.com/us/app/ssl-reminder/id6786519365)
+[在 App Store 下载 SSL Certificate Monitor](https://apps.apple.com/us/app/ssl-reminder/id6786519365)
 
 ### 支持
 
 如需产品支持、隐私咨询或问题排查：
 
-- 访问 [SSL Reminder 支持页面](https://ssl.opshome.run/support/)
+- 访问 [SSL Certificate Monitor 支持页面](https://ssl.opshome.run/support/)
 - 提供应用版本、iOS 版本和简短的问题描述
 - 请勿发送证书私钥、密码或敏感服务器凭据
 
 ---
 
+```
+
+---
+
+<div align="center">
 
 **Free. Simple. Reliable.**  
 **免费、简单、可靠。**
