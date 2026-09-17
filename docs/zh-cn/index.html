@@ -1,120 +1,49 @@
-<!DOCTYPE html>
-
-<html lang="zh-CN">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>SSL Certificate Monitor - HTTPS 证书到期提醒</title>
-<meta content="SSL Certificate Monitor 可免费监控最多 15 个公开 SSL/TLS 证书，支持每日云端检测、证书健康检查、自定义 HTTPS 端口、PDF 报告，以及证书到期和检测失败的 iPhone 推送提醒。" name="description"/>
-<link href="https://ssl.opshome.run/zh-cn/" rel="canonical"/>
-<link href="https://ssl.opshome.run/" hreflang="en" rel="alternate"/>
-<link href="https://ssl.opshome.run/zh-cn/" hreflang="zh-CN" rel="alternate"/>
-<link href="https://ssl.opshome.run/" hreflang="x-default" rel="alternate"/>
-<meta content="website" property="og:type"/>
-<meta content="SSL Certificate Monitor - HTTPS 证书到期提醒" property="og:title"/>
-<meta content="每日云端检测 SSL 证书，到期前通过 iPhone 推送提醒。" property="og:description"/>
-<meta content="https://ssl.opshome.run/zh-cn/" property="og:url"/>
-<meta content="https://ssl.opshome.run/assets/images/og.jpeg" property="og:image"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="https://ssl.opshome.run/assets/images/og.jpeg" name="twitter:image"/>
-<link href="/assets/images/app-icon.png" rel="icon"/>
-<link href="/assets/images/app-icon.png" rel="apple-touch-icon"/>
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": "https://ssl.opshome.run/#website",
-      "url": "https://ssl.opshome.run/",
-      "name": "SSL Certificate Monitor",
-      "publisher": {
-        "@id": "https://ssl.opshome.run/#organization"
-      }
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://ssl.opshome.run/#organization",
-      "name": "OpsHome",
-      "url": "https://opshome.run/"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "@id": "https://ssl.opshome.run/#software",
-      "name": "SSL Certificate Monitor",
-      "applicationCategory": "UtilitiesApplication",
-      "operatingSystem": "iOS",
-      "url": "https://ssl.opshome.run/",
-      "downloadUrl": "https://apps.apple.com/us/app/ssl-reminder/id6786519365",
-      "sameAs": [
-        "https://apps.apple.com/us/app/ssl-reminder/id6786519365"
-      ],
-      "image": "https://ssl.opshome.run/assets/images/app-icon.png",
-      "publisher": {
-        "@id": "https://ssl.opshome.run/#organization"
-      },
-      "description": "SSL Certificate Monitor 用于监控公开 SSL/TLS 证书，检查证书健康与到期状态，并在证书临近到期或检测失败时发送 iPhone 提醒。",
-      "featureList": [
-        "Daily cloud certificate checks",
-        "14-day, 7-day, 1-day and expiry-day alerts",
-        "Certificate health checks",
-        "Custom HTTPS ports",
-        "PDF certificate detail reports",
-        "Import and export of monitored targets",
-        "Issuer grouping and expiry indicators"
-      ]
-    }
-  ]
-}</script><link href="/assets/css/styles.css" rel="stylesheet"/>
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SSL Certificate Monitor：证书到期提醒与 TLS 健康检查</title>
+<meta name="description" content="在 iPhone 与 iPad 上监控公网 SSL/TLS 证书，支持每日云端检测、Apple 消息推送、证书健康检查、PDF 报告、备份还原和一次性容量扩展。">
+<link rel="canonical" href="https://ssl.opshome.run/zh-cn/">
+<link rel="alternate" hreflang="en" href="https://ssl.opshome.run/">
+<link rel="alternate" hreflang="zh-CN" href="https://ssl.opshome.run/zh-cn/">
+<link rel="alternate" hreflang="x-default" href="https://ssl.opshome.run/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="apple-itunes-app" content="app-id=6786519365">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SSL Certificate Monitor：证书到期提醒与 TLS 健康检查">
+<meta property="og:description" content="每日云端检测 SSL/TLS 证书，支持 Apple 消息推送、健康检查、PDF 报告，以及一次性容量扩展。">
+<meta property="og:url" content="https://ssl.opshome.run/zh-cn/">
+<meta property="og:image" content="https://ssl.opshome.run/assets/images/og.jpeg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="720">
+<meta property="og:site_name" content="SSL Certificate Monitor">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@opshome_NOC">
+<meta name="twitter:creator" content="@opshome_NOC">
+<meta name="twitter:title" content="SSL Certificate Monitor：证书到期提醒与 TLS 健康检查">
+<meta name="twitter:description" content="每日云端检测 SSL/TLS 证书，支持 Apple 消息推送、健康检查、PDF 报告，以及一次性容量扩展。">
+<meta name="twitter:image" content="https://ssl.opshome.run/assets/images/og.jpeg">
+<meta name="twitter:image:alt" content="SSL Certificate Monitor for iPhone and iPad">
+<link rel="icon" href="/assets/images/app-icon-180.png">
+<link rel="apple-touch-icon" href="/assets/images/app-icon-180.png">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://ssl.opshome.run/#website","url":"https://ssl.opshome.run/","name":"SSL Certificate Monitor","publisher":{"@id":"https://ssl.opshome.run/#organization"}},{"@type":"Organization","@id":"https://ssl.opshome.run/#organization","name":"OpsHome","url":"https://app.opshome.run/","sameAs":["https://x.com/opshome_NOC"]},{"@type":"SoftwareApplication","@id":"https://ssl.opshome.run/#software","name":"SSL Certificate Monitor","applicationCategory":"UtilitiesApplication","operatingSystem":"iOS, iPadOS","url":"https://ssl.opshome.run/","downloadUrl":"https://apps.apple.com/us/app/ssl-reminder/id6786519365","sameAs":["https://apps.apple.com/us/app/ssl-reminder/id6786519365","https://x.com/opshome_NOC"],"image":"https://ssl.opshome.run/assets/images/app-icon.png","publisher":{"@id":"https://ssl.opshome.run/#organization"},"description":"在 iPhone 与 iPad 上监控公网 SSL/TLS 证书，支持每日云端检测、Apple 消息推送、证书健康检查、PDF 报告、备份还原和一次性容量扩展。","featureList":["Native iPhone and iPad layouts","15 certificate targets free","Daily cloud certificate checks","Apple push notifications","Certificate health checks","Custom HTTPS ports","PDF report export","Import and export backup","One-time non-consumable capacity upgrades: +50, +100, +500"]}]}</script>
 </head>
-<body>
-<header class="site-header">
-<div class="container nav">
-<a aria-label="SSL Certificate Monitor 简体中文首页" class="brand" href="/zh-cn/"><img alt="SSL Certificate Monitor app icon" decoding="async" height="34" src="/assets/images/app-icon-96.webp" width="34"/><span>SSL Certificate Monitor</span></a>
-<button aria-expanded="false" aria-label="打开导航" class="menu-button" data-menu-button="" type="button">菜单</button>
-<nav class="nav-links" data-nav-links="">
-<a href="#features">功能</a>
-<a href="#how-it-works">工作方式</a>
-<a href="/zh-cn/privacy/">隐私</a>
-<a href="/zh-cn/support/">支持</a>
-<a href="https://app.opshome.run/">OpsHome NOC</a>
-<a href="/">English</a>
-<a class="button primary" href="https://apps.apple.com/us/app/ssl-reminder/id6786519365" rel="noopener" target="_blank">下载</a>
-</nav>
-</div>
-</header>
-<main>
-<section class="hero">
-<div class="container hero-grid">
-<div>
-<p class="eyebrow">SSL Certificate Monitor</p>
-<h1>SSL Certificate Monitor — HTTPS 证书到期提醒</h1>
-<p class="lead">免费监控最多 15 个 SSL 证书，通过每日云端检测和 iPhone 推送，在证书过期前提醒你处理。</p>
-<div class="cta-row"><a class="button primary" href="https://apps.apple.com/us/app/ssl-reminder/id6786519365" id="download">在 App Store 下载</a><a class="button secondary" href="#features">了解功能</a></div>
-<ul aria-label="产品亮点" class="trust-tags"><li>15 个证书免费</li><li>每日云端检测</li><li>到期提醒</li><li>无广告</li><li>无需注册</li></ul>
-<p class="hero-line">简单、私密、可靠。<span>让证书到期风险保持可见。</span></p>
-</div>
-<figure class="hero-visual"><img alt="SSL Certificate Monitor iPhone 应用截图" decoding="async" fetchpriority="high" height="1025" src="/assets/images/ssl-certificate-monitor-hero-520.png" width="520"/></figure>
-</div>
-</section>
-<section id="features"><div class="container"><div class="section-head"><h2>专注 SSL 到期提醒所需的核心能力</h2><p>SSL Certificate Monitor 面向开发者、站长和 homelab 用户，不只关注到期日期，也提供实用的证书健康状态与整理能力。</p></div><div class="grid features">
-<article class="card"><div class="icon">15</div><h3>免费监控 15 个证书</h3><p>无需账号即可添加证书目标，持续查看到期日期和状态。</p></article>
-<article class="card"><div class="icon">D</div><h3>每日云端检测</h3><p>云端每天检查公开 SSL 证书，减少手工记日期的负担。</p></article>
-<article class="card"><div class="icon">P</div><h3>iPhone 推送通知</h3><p>支持 14 天、7 天、1 天和到期当天提醒。</p></article>
-<article class="card"><div class="icon">i</div><h3>证书详情</h3><p>查看到期日、剩余天数、签发者、主题和证书状态。</p></article>
-<article class="card"><div class="icon">R</div><h3>健康报告</h3><p>快速区分健康、即将到期、严重风险和检测失败的证书。</p></article>
-<article class="card"><div class="icon">0</div><h3>无需注册</h3><p>直接在 iPhone 上管理证书目标，低维护、低打扰。</p></article>
-<article class="card"><div class="icon">H</div><h3>证书健康检查</h3><p>除到期日期外，还可识别自签名证书、不受信任的证书链、主机名或域名不匹配，以及证书检测失败等状态。</p></article><article class="card"><div class="icon">P+</div><h3>自定义 HTTPS 端口</h3><p>除了标准 443 端口，也可以监控公网可访问的自定义 HTTPS 服务端口。</p></article><article class="card"><div class="icon">PDF</div><h3>PDF 证书详情报告</h3><p>可将证书详情导出为 PDF，方便留档、复核或分享。</p></article><article class="card"><div class="icon">↕</div><h3>导入、导出与整理</h3><p>通过导入/导出迁移或备份监控目标，并使用签发者分组和到期日指示更快查看多个证书。</p></article></div></div></section>
-<section id="how-it-works"><div class="container"><div class="section-head"><h2>工作方式</h2></div><div class="grid steps"><article class="card step"><h3>添加证书目标</h3><p>输入需要监控的公网 HTTPS 域名；如果服务不使用 443，也可以指定自定义端口。</p></article><article class="card step"><h3>云端每日检测</h3><p>服务会更新证书状态和到期信息。</p></article><article class="card step"><h3>收到到期提醒</h3><p>证书临近到期或检测连续失败时，在 iPhone 上收到通知。</p></article><article class="card step"><h3>查看健康报告</h3><p>随时打开应用查看状态、详情和优先处理项。</p></article></div></div></section>
-<section><div class="container split"><div class="section-head"><h2>为什么选择 SSL Certificate Monitor？</h2><p>SSL Certificate Monitor 刻意保持专注：把公开 SSL/TLS 证书的到期提醒、健康检查和基础整理做好，而不是做成一个复杂的全栈监控平台。</p><p>对于开发者、站长和 homelab 用户，它提供低配置成本、无需注册账号的证书可见性。</p></div><div class="card"><ul class="check-list"><li>专注证书到期与健康状态</li><li>每日云端检测与 iPhone 推送</li><li>支持自定义 HTTPS 端口</li><li>无需注册、无广告、低维护</li></ul></div></div></section><section><div class="container split"><div><div class="section-head"><h2>在一个地方查看证书健康状态</h2><p>Certificate Health Report 不只汇总到期风险，也帮助识别自签名证书、不受信任的证书链、主机名或域名不匹配，以及检测失败等情况。</p></div><p class="lead">结合签发者分组和清晰的到期日指示，可以更快浏览多个监控目标。</p></div><div class="report-panel"><div class="metric"><span>健康证书</span><strong>12</strong></div><div class="metric"><span>30 天内到期</span><strong>2</strong></div><div class="metric"><span>7 天内严重风险</span><strong>1</strong></div><div class="metric"><span>已过期</span><strong>0</strong></div><div class="metric"><span>检测失败</span><strong>0</strong></div><div class="metric"><span>需要优先处理</span><strong>1</strong></div></div></div></section><section><div class="container split"><div class="section-head"><h2>隐私优先的设计</h2><p>SSL Certificate Monitor 无需注册账号，不需要服务器密码或证书私钥。云端监控只处理完成公开证书检查和推送提醒所必需的信息。</p><div class="cta-row"><a class="button secondary" href="/zh-cn/privacy/">阅读隐私政策</a></div></div><div class="card"><ul class="check-list"><li>无需账号</li><li>无广告</li><li>不需要证书私钥</li><li>不需要服务器登录凭据</li></ul></div></div></section><section><div class="container"><div class="section-head"><h2>常见问题</h2></div><div class="faq"><details><summary>免费版可以监控多少个证书？</summary><p>最多可以免费监控 15 个 SSL/TLS 证书目标。</p></details><details><summary>可以监控非 443 端口吗？</summary><p>可以。对于公网可访问的 HTTPS 服务，可以指定自定义端口。</p></details><details><summary>Certificate Health 会检查什么？</summary><p>除了到期时间，还可帮助发现自签名证书、不受信任的证书链、主机名或域名不匹配，以及检测失败等状态。</p></details><details><summary>可以导出证书信息吗？</summary><p>可以导出证书详情 PDF，并通过导入/导出功能迁移或备份监控目标。</p></details><details><summary>可以长期监控内网或 VPN 内的证书吗？</summary><p>云端监控面向公网可访问的 SSL/TLS 服务。仅 LAN 或 VPN 内可访问的目标不适合 SSL Certificate Monitor 的长期云端检测。</p></details><details><summary>需要完整的私有服务或 homelab 监控怎么办？</summary><p>如果需要正常运行时间、私有服务、Docker Probe、Synology、Proxmox、Linux 主机或容器监控，可以使用 OpsHome NOC。</p></details></div></div></section><section><div class="container ops"><h2>需要完整基础设施监控？</h2><p>SSL Certificate Monitor 专注证书到期提醒。如果你需要正常运行时间、内网服务、Docker Probe、Synology、Proxmox、Linux 主机和容器监控，请使用 OpsHome NOC。</p><div class="cta-row"><a class="button primary" href="https://app.opshome.run/">了解 OpsHome NOC</a><a class="button secondary" href="https://wifi.opshome.run/zh-cn/">WiFi Health Check</a></div></div></section>
-<section class="final-cta"><div class="container"><h2>现在开始监控 SSL 证书</h2><p class="lead" style="margin-left:auto;margin-right:auto;">免费、简单、可靠。</p><div class="cta-row" style="justify-content:center;"><a class="button primary" href="https://apps.apple.com/us/app/ssl-reminder/id6786519365">在 App Store 下载</a></div></div></section>
-</main>
-<footer class="site-footer">
-<div class="container footer-grid">
-<div class="footer-brandline"><img alt="SSL Certificate Monitor logo" decoding="async" height="44" loading="lazy" src="/assets/images/ssl-reminder-logo.png" width="44"/><div><strong>SSL Certificate Monitor</strong><span>HTTPS 证书到期提醒</span></div></div>
-<nav class="footer-links"><a href="/zh-cn/privacy/">隐私政策</a><a href="/zh-cn/support/">支持</a><a href="/zh-cn/about/">关于</a><a href="https://app.opshome.run/">OpsHome NOC</a><a href="https://wifi.opshome.run/zh-cn/">WiFi Health Check</a><a href="/">English</a></nav>
-<div class="copyright">© 2026 OpsHome™</div>
-</div>
-</footer>
-<script defer="" src="/assets/js/main.js"></script>
-</body>
-</html>
+<body><header class="site-header"><div class="container nav"><a class="brand" href="/zh-cn/"><img src="/assets/images/app-icon-96.webp" width="34" height="34" alt="SSL Certificate Monitor app icon"><span>SSL Certificate Monitor</span></a><button class="menu-button" data-menu-button aria-expanded="false" aria-label="打开导航">菜单</button><nav class="nav-links" data-nav-links><a href="#features">功能</a><a href="#pricing">扩容</a><a href="#how-it-works">工作方式</a><a href="/zh-cn/privacy/">隐私</a><a href="/zh-cn/support/">支持</a><a href="/">English</a><a class="nav-download" href="https://apps.apple.com/us/app/ssl-reminder/id6786519365" target="_blank" rel="noopener">App Store</a></nav></div></header><main>
+<section class="hero"><div class="container hero-grid"><div class="hero-copy"><p class="eyebrow">为 iPhone 与 iPad 优化的 SSL/TLS 证书监控</p><h1>在证书过期之前，先知道。</h1><p class="lead">每日云端检测、Apple 消息推送、Certificate Health、PDF 报告和备份还原，并针对 iPhone 与 iPad 提供原生布局。</p><div class="cta-row"><a class="app-store-button" href="https://apps.apple.com/us/app/ssl-reminder/id6786519365" target="_blank" rel="noopener"><span class="small">在 App Store</span><strong>下载</strong></a></div><ul class="trust-tags" aria-label="产品亮点"><li>15 个免费</li><li>iPhone 与 iPad</li><li>Apple 消息推送</li><li>一次购买扩容</li><li>无需账号</li></ul><a class="scroll-cue" href="#features" aria-label="查看功能"><span>看看它能监控什么</span><b>↓</b></a></div><figure class="hero-visual"><img src="/assets/images/ssl-certificates-iphone.webp" width="700" height="1380" fetchpriority="high" alt="SSL Certificate Monitor 在 iPhone 上的证书列表"></figure></div></section>
+<section id="features"><div class="container"><div class="section-head centered"><p class="eyebrow">核心功能</p><h2>把证书监控做好，不把工具做复杂。</h2><p>围绕公网 SSL/TLS 证书的到期、健康、提醒、报告和迁移，提供真正会长期用到的能力。</p></div><div class="features"><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M7 4v6m10-6v6M5 12h14v8H5z"/></svg></div><h3>免费 15 个证书</h3><p>无需注册账号，即可开始监控最多 15 个公网 SSL/TLS 证书目标。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .7-7.94A6 6 0 0 0 6.2 8.7 4.5 4.5 0 0 0 7 18Z"/><path d="M12 11v4m0 0 2-2m-2 2-2-2"/></svg></div><h3>每日云端检测</h3><p>云端每天检查公网证书目标，让到期状态保持更新。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9Z"/><path d="M10 21h4"/></svg></div><h3>Apple 消息推送</h3><p>当云端检测发现到期风险或支持的检测失败时，通过 Apple push notification service 发送提醒。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 20 6v6c0 5-3.4 8-8 9-4.6-1-8-4-8-9V6l8-3Z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></svg></div><h3>Certificate Health</h3><p>识别到期风险、自签名证书、不受信任证书链、主机名不匹配和检测失败。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10h.01"/></svg></div><h3>证书详情</h3><p>查看到期日期、剩余天数、签发者、主题、主机名、端口和当前状态。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14v10H5z"/><path d="M8 10h2m4 0h2m-8 4h8"/></svg></div><h3>自定义 HTTPS 端口</h3><p>除标准 443 端口外，也可监控公网可访问的自定义 HTTPS 服务端口。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v5h5M8 16h8M8 12h5"/></svg></div><h3>PDF 报告导出</h3><p>生成便于复核、留档或分享的证书详情 PDF 报告。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v12H4z"/><path d="M8 3h8v4H8zM12 10v6m0 0-2-2m2 2 2-2"/></svg></div><h3>批量导出、备份与还原</h3><p>导出监控目标用于备份，并可在更换设备后再次导入还原。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3"/><path d="M5 20c.7-4 3-6 7-6s6.3 2 7 6"/><path d="m17.5 5.5 3 3m0-3-3 3"/></svg></div><h3>无需注册账号</h3><p>无需创建 OpsHome 账号，也不用维护额外的登录信息。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div><h3>隐私优先</h3><p>公网证书监控不需要服务器密码，也不需要证书私钥。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7a7 7 0 1 1-1.5 7"/><path d="M3 8h5v5"/><path d="M12 8v4l3 2"/></svg></div><h3>一次购买永久扩容</h3><p>通过非消耗型 IAP 增加 +50、+100 或 +500 个证书槽位，无需月费或年费订阅。</p></article><article class="feature-card"><div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h7v6H4zM13 5h7v6h-7zM4 13h7v6H4zM13 13h7v6h-7z"/></svg></div><h3>签发者分组与整理</h3><p>按签发者分组并结合到期状态，更快浏览较大的证书清单。</p></article></div></div></section>
+<section id="how-it-works" class="soft-section"><div class="container"><div class="section-head centered"><p class="eyebrow">工作方式</p><h2>设置一次，让证书续期风险持续可见。</h2></div><div class="steps"><article class="step-card"><span>01</span><h3>添加公网 HTTPS 目标</h3><p>输入主机名；如有需要，也可以指定公网可访问的自定义 HTTPS 端口。</p></article><article class="step-card"><span>02</span><h3>云端每日检测</h3><p>服务更新证书状态、到期信息和支持的健康信号。</p></article><article class="step-card"><span>03</span><h3>收到 Apple 消息推送</h3><p>发现支持的到期风险或检测失败时，通过 Apple 消息推送服务向 iPhone 发送提醒。</p></article><article class="step-card"><span>04</span><h3>查看、导出或备份</h3><p>查看健康状态，导出 PDF 报告，并使用导入/导出工具迁移监控目标。</p></article></div></div></section>
+<section class="health-section"><div class="container health-layout"><div><p class="eyebrow">Certificate Health Report</p><h2>先看清楚，哪些证书需要处理。</h2><p class="lead small-lead">将到期状态与实用 TLS 健康信号集中呈现在更宽的 iPad 报告布局中，更容易区分正常证书和需要优先处理的问题。</p><ul class="check-list"><li>到期风险与已过期证书</li><li>自签名或不受信任的证书链</li><li>主机名或域名不匹配</li><li>证书检测失败</li></ul><div class="device-note"><strong>专为 iPhone 与 iPad 优化</strong><span>iPhone 提供紧凑的移动监控体验，iPad 为报告与状态详情提供更宽的原生布局。</span></div></div><figure class="health-device"><img src="/assets/images/ssl-report-ipad.webp" width="980" height="1353" loading="lazy" alt="SSL Certificate Monitor 在 iPad 上的证书健康报告"><figcaption>iPad 原生报告布局</figcaption></figure></div></section>
+<section id="pricing" class="pricing-section"><div class="container"><div class="section-head centered"><p class="eyebrow">容量扩展</p><h2>免费开始，需要时再扩容。</h2><p>免费监控 15 个证书；需要更大容量时，通过一次性、非消耗型 IAP 永久增加证书槽位，无需订阅。</p></div><div class="pricing-grid">
+<article class="price-card"><div class="price-top"><span class="plan">Free</span><strong class="price">$0</strong></div><h3>15 个证书槽位</h3><p>无需账号即可开始监控公网 SSL/TLS 证书目标。</p><span class="price-badge free">免费包含</span></article>
+<article class="price-card"><div class="price-top"><span class="plan">+50</span><strong class="price">$3.99</strong></div><h3>增加 50 个证书槽位</h3><p>适合开发者、Homelab 和多站点环境的一次性容量扩展。</p><span class="price-badge">一次购买</span></article>
+<article class="price-card featured"><div class="price-top"><span class="plan">+100</span><strong class="price">$8.99</strong></div><h3>增加 100 个证书槽位</h3><p>为多项目、客户网站和更大的证书清单提供额外容量。</p><span class="price-badge">一次购买</span></article>
+<article class="price-card"><div class="price-top"><span class="plan">+500</span><strong class="price">$19.99</strong></div><h3>增加 500 个证书槽位</h3><p>面向更大规模证书清单的扩容方案，同时保持无订阅模式。</p><span class="price-badge">一次购买</span></article>
+</div><p class="pricing-note">以上为美元参考价格，实际 App Store 价格可能因国家或地区而不同。扩容项目为非消耗型购买，可通过 App Store 恢复购买。</p></div></section>
+<section class="privacy-section"><div class="container split"><div><p class="eyebrow">隐私优先</p><h2>监控证书，不索取服务器凭据。</h2><p class="lead small-lead">公网证书监控不需要服务器密码、DNS 凭据或证书私钥。</p><div class="cta-row"><a class="button secondary" href="/zh-cn/privacy/">查看隐私政策</a></div></div><div class="privacy-card"><ul class="check-list"><li>无需账号</li><li>无广告</li><li>不收集证书私钥</li><li>不需要服务器登录凭据</li><li>可在 App 内删除云端数据</li></ul></div></div></section>
+<section><div class="container"><div class="section-head centered"><p class="eyebrow">FAQ</p><h2>常见问题</h2></div><div class="faq"><details><summary>免费版可以监控多少个证书？</summary><p>最多 15 个公网 SSL/TLS 证书目标。</p></details><details><summary>+50、+100、+500 是订阅吗？</summary><p>不是。它们都是一次性、非消耗型的应用内购买，用于永久增加证书容量，并可通过 App Store 恢复购买。</p></details><details><summary>推送提醒是怎么工作的？</summary><p>SSL Certificate Monitor 使用 Apple push notification service。当云端检测发现到期条件或支持的检测失败时，可向 iPhone 发送提醒。</p></details><details><summary>可以备份和还原监控目标吗？</summary><p>可以。通过导入和导出工具备份监控目标，并在更换设备后重新导入。</p></details><details><summary>可以导出报告吗？</summary><p>可以。证书详情可导出为 PDF，便于复核、留档或分享。</p></details><details><summary>可以监控非 443 端口吗？</summary><p>可以，只要目标 HTTPS 服务和所选端口能够从公网访问。</p></details><details><summary>可以监控 LAN 或仅 VPN 可访问的证书吗？</summary><p>云端监控面向公网 SSL/TLS 服务。仅内网可访问的目标可能无法被云端检测服务访问。</p></details></div></div></section>
+<section class="noc-section"><div class="container noc-inner"><div><p class="eyebrow dark">OpsHome NOC</p><h2>需要的不只是证书监控？</h2><p>如果你还需要可用性监控、内网、Docker Probe、Synology、Proxmox、VMware、Linux 主机、Incidents、历史数据和 Web Console，可以使用 OpsHome NOC。</p></div><a class="button noc-button" href="https://app.opshome.run/">了解 OpsHome NOC</a></div></section>
+<section class="final-cta"><div class="container"><h2>免费从 15 个证书开始。</h2><p>每日云端检测、Apple 消息推送，而且无需注册账号。</p><a class="app-store-button center" href="https://apps.apple.com/us/app/ssl-reminder/id6786519365" target="_blank" rel="noopener"><span class="small">在 App Store</span><strong>下载</strong></a></div></section>
+</main><footer class="site-footer"><div class="container footer-grid"><div class="footer-brandline"><img src="/assets/images/app-icon-96.webp" width="44" height="44" loading="lazy" alt="SSL Certificate Monitor logo"><div><strong>SSL Certificate Monitor</strong><span>SSL/TLS 证书到期与健康监控</span></div></div><nav class="footer-links"><a href="/zh-cn/privacy/">隐私政策</a><a href="/zh-cn/support/">支持</a><a href="/zh-cn/about/">关于</a><a href="https://x.com/opshome_NOC" target="_blank" rel="noopener">X · @opshome_NOC</a><a href="https://app.opshome.run/">OpsHome NOC</a><a href="/">English</a></nav><div class="copyright">© 2026 OpsHome™</div></div></footer><script defer src="/assets/js/main.js"></script></body></html>
