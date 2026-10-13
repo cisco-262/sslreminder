@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/images/app-icon-180.png" alt="SSL Certificate Monitor logo" width="120">
+<img src="/docs/assets/images/app-icon-180.png" alt="SSL Certificate Monitor logo" width="120">
 
 # SSL Certificate Monitor
 
