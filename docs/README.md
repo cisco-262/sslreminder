@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/images/ssl-logo-20261013.webp" alt="SSL Certificate Monitor logo" width="120">
+<img src="docs/assets/images/app-icon-180.png" alt="SSL Certificate Monitor logo" width="120">
 
 # SSL Certificate Monitor
 
@@ -18,8 +18,7 @@ SSL/TLS certificate monitoring for iPhone and iPad, with daily cloud checks, exp
 
 [English](#english) · [简体中文](#简体中文) · [Privacy](https://ssl.opshome.run/privacy/) · [Support](https://ssl.opshome.run/support/)
 
-<img src="docs/assets/images/ssl-home-iphone.webp" alt="Nearest certificate expiry, domain and issuer on iPhone" width="260">
-<img src="docs/assets/images/ssl-chain-ipad.webp" alt="Certificate trust chain and SAN details on iPad" width="400">
+
 
 </div>
 
