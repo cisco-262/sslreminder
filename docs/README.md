@@ -1,31 +1,25 @@
 <div align="center">
 
-<img src="assets/images/ssl-certificate-monitor-logo.webp" alt="SSL Certificate Monitor Logo" width="120">
+<img src="docs/assets/images/ssl-logo-20261013.webp" alt="SSL Certificate Monitor logo" width="120">
 
 # SSL Certificate Monitor
 
-**Know before your SSL certificate expires.**  
-**在证书过期之前，先知道。**
+**Certificate expiry, under control.**  
+**最近到期的证书，一眼可见。**
 
-Public SSL/TLS certificate monitoring for **iPhone and iPad** with daily cloud checks, Apple push alerts, certificate health signals, PDF reports, backup tools, and one-time capacity upgrades.
+SSL/TLS certificate monitoring for iPhone and iPad, with daily cloud checks, expiry alerts and certificate chain analysis.
 
-面向 **iPhone 与 iPad** 的公网 SSL/TLS 证书监控：每日云端检测、Apple 消息推送、Certificate Health、PDF 报告、备份还原，以及一次购买永久扩容。
-
-<br>
+面向 iPhone 与 iPad 的 SSL/TLS 证书监控工具，支持每日云端检测、到期提醒与证书链解析。
 
 [![App Store](https://img.shields.io/badge/App_Store-Download-0D96F6?logo=apple&logoColor=white)](https://apps.apple.com/us/app/ssl-reminder/id6786519365)
-[![Website](https://img.shields.io/badge/Website-ssl.opshome.run-168B59)](https://ssl.opshome.run)
+[![Website](https://img.shields.io/badge/Website-ssl.opshome.run-168B59)](https://ssl.opshome.run/)
 [![Platform](https://img.shields.io/badge/Platform-iPhone_%26_iPad-lightgrey?logo=apple)](https://apps.apple.com/us/app/ssl-reminder/id6786519365)
-[![Free Tier](https://img.shields.io/badge/Free-15_certificates-success)](https://ssl.opshome.run/#pricing)
-[![Upgrades](https://img.shields.io/badge/Upgrades-One--time_purchase-0F766E)](https://ssl.opshome.run/#pricing)
-
-<br>
+[![Free to start](https://img.shields.io/badge/Free_to_start-3_certificate_targets-success)](https://apps.apple.com/us/app/ssl-reminder/id6786519365)
 
 [English](#english) · [简体中文](#简体中文) · [Privacy](https://ssl.opshome.run/privacy/) · [Support](https://ssl.opshome.run/support/)
 
-<br>
-
-<img src="assets/images/ssl-certificate-monitor-hero-520.webp" alt="SSL Certificate Monitor on iPhone and iPad" width="520">
+<img src="docs/assets/images/ssl-home-iphone.webp" alt="Nearest certificate expiry, domain and issuer on iPhone" width="260">
+<img src="docs/assets/images/ssl-chain-ipad.webp" alt="Certificate trust chain and SAN details on iPad" width="400">
 
 </div>
 
@@ -35,114 +29,55 @@ Public SSL/TLS certificate monitoring for **iPhone and iPad** with daily cloud c
 
 ### Overview
 
-**SSL Certificate Monitor** is a focused certificate-monitoring app for developers, webmasters, indie makers, homelab users, and small teams that want reliable SSL/TLS expiry visibility without deploying a full monitoring platform.
+**SSL Certificate Monitor** helps developers, webmasters, indie makers and homelab users monitor publicly reachable SSL/TLS certificates.
 
-Add a public HTTPS target, optionally specify a custom reachable port, and let the cloud service check certificate status every day. The app can surface expiry risk and supported TLS health findings, send Apple push alerts, export certificate details as PDF, and back up or restore monitored targets.
+The homepage puts the nearest expiry first: a large countdown, the domain and its certificate issuer. Daily cloud checks and iPhone push notifications help you track renewal risk, while X.509 chain details, SAN matching and TLS connection information provide evidence for troubleshooting.
 
-### Key Features
 
-| Capability | Description |
-| --- | --- |
-| **15 certificates free** | Monitor up to 15 public SSL/TLS certificate targets with no account required. |
-| **Native iPhone & iPad layouts** | Optimized interfaces for both iPhone and iPad. |
-| **Daily cloud checks** | Public certificate targets are checked every day so status and expiry information stay current. |
-| **Apple push alerts** | Receive alerts when supported expiry risks or check failures are detected. |
-| **Certificate Health** | Identify expiry risk, expired certificates, self-signed certificates, untrusted chains, hostname mismatch, and failed checks. |
-| **Certificate details** | Review expiry date, days remaining, issuer, subject, hostname, port, and current status. |
-| **Custom HTTPS ports** | Monitor public HTTPS services on port 443 or another publicly reachable HTTPS port. |
-| **PDF reports** | Export certificate detail reports for review, documentation, or sharing. |
-| **Backup, export & restore** | Export monitored targets and import them again when moving to a new device. |
-| **Issuer grouping** | Organize larger certificate inventories by issuer and expiry state. |
-| **No account required** | Start using the app without creating an OpsHome account. |
-| **No ads** | Focused certificate monitoring without ad clutter. |
-| **No subscription required** | Capacity upgrades are one-time, non-consumable in-app purchases. |
+### Certificate Analysis
 
-### How It Works
+Certificate details can include:
 
-1. **Add a public HTTPS target**  
-   Enter the hostname and, if required, a custom publicly reachable HTTPS port.
+- Expiry date, remaining days, issuer, subject and latest check time
+- Available root, intermediate and leaf certificate information
+- SHA-256 fingerprint and certificate serial number
+- Public key algorithm and length, and certificate signature algorithm
+- SAN protected names with exact or wildcard hostname matching
+- Negotiated TLS protocol and cipher suite
+- Trust results, hostname mismatch, self-signed certificates and supported check failures
 
-2. **Cloud checks run daily**  
-   The service refreshes certificate status, expiry information, and supported health signals.
+**Name matching, expiry and trust are evaluated separately.** A SAN match does not by itself establish that a certificate is trusted, current or secure. Chain details depend on the evidence available from the endpoint.
 
-3. **Apple push alerts arrive**  
-   When a supported expiry condition or check failure is detected, the service can notify your iPhone.
+The health overview distinguishes normal certificates, certificates approaching expiry, expired certificates and failed checks. PDF report conclusions reflect the available evidence; incomplete or outdated information should not be treated as a complete security assessment.
 
-4. **Review, export, or back up**  
-   Check certificate health, export PDF reports, and move monitored targets with import/export tools.
+### Free Allowance and Capacity Upgrades
 
-### Certificate Health
+| Option | Certificate capacity |
+| --- | ---: |
+| New users | 3 free targets |
+| Capacity packs | Add +2, +10, +50, +100 or +500 slots |
 
-Certificate Health combines expiry information with practical TLS findings so the most important issues are easier to identify:
+Capacity packs are **one-time, non-consumable in-app purchases**, with no recurring subscription. Each pack can be purchased once, and different packs can be combined. Analysis features are included for everyone; purchases increase monitoring capacity.
 
-- Expiry risk and expired certificates
-- Self-signed certificates
-- Untrusted certificate chains
-- Hostname or domain mismatch
-- Failed certificate checks
-- Priority issues that should be reviewed first
+Current prices appear in the app and may vary by App Store region. Purchases support restoration. Moving cloud monitoring to another device uses the in-app transfer flow, with activation moving to the receiving device.
 
-### Capacity Upgrades
+### Privacy
 
-SSL Certificate Monitor starts with **15 certificate slots free**. If you need more capacity, the app offers one-time, non-consumable upgrades:
+Public certificate monitoring does not require server passwords, DNS credentials or certificate private keys.
 
-| Plan | Capacity Added | Reference Price |
-| --- | ---: | ---: |
-| Free | 15 included | $0 |
-| +50 | 50 additional slots | $3.99 |
-| +100 | 100 additional slots | $8.99 |
-| +500 | 500 additional slots | $19.99 |
+When cloud monitoring is enabled, the service processes the information needed for checks and notifications, including target host and port, an anonymous device identifier, Apple push notification token, certificate status summaries and temporary detailed check records.
 
-Prices above are USD references. Actual App Store pricing may vary by country or region. Purchased capacity can be restored through the App Store.
-
-### Privacy-First Design
-
-Public certificate monitoring does **not** require server passwords, DNS credentials, or certificate private keys.
-
-When cloud monitoring is enabled, the service may process only the information needed to provide certificate checks and notifications, including:
-
-- Certificate targets you add, including host and port
-- An anonymous device identifier
-- Apple push notification token
-- Certificate status summaries
-- Temporary detailed check records
-
-SSL Certificate Monitor does **not** collect:
-
-- Server passwords
-- Certificate private keys
-- DNS credentials
-- Website content
-- Personal identity information for account registration
-
-Detailed check records are retained for **48 hours**. After that, only the latest status summary and latest successful check summary are retained. Cloud data can be deleted from within the app.
+Detailed check records are retained for **48 hours**. After that, only the latest status summary and latest successful check summary are retained. You can delete cloud monitoring data from within the app.
 
 Read the complete [Privacy Policy](https://ssl.opshome.run/privacy/).
 
-### Monitoring Scope
+For broader uptime, private network, Docker Probe, Synology, Proxmox, VMware, Linux host, container and incident monitoring, see [OpsHome NOC](https://app.opshome.run/).
 
-Cloud monitoring is designed for **public SSL/TLS endpoints**. Private LAN, VPN-only, NAS, Proxmox, router, internal dashboards, and other non-public targets may not be reachable from the cloud checker.
+### Download and Support
 
-SSL Certificate Monitor does not replace your certificate authority, reverse proxy, renewal automation, or a full infrastructure monitoring platform.
+[Download on the App Store](https://apps.apple.com/us/app/ssl-reminder/id6786519365) · [Product website](https://ssl.opshome.run/) · [Support](https://ssl.opshome.run/support/)
 
-### Need Broader Infrastructure Monitoring?
-
-For uptime monitoring, private networks, Docker Probe, Synology, Proxmox, VMware, Linux hosts, incidents, history, and Web Console access, use **OpsHome NOC**.
-
-[Learn about OpsHome NOC](https://app.opshome.run/)
-
-### App Store
-
-[Download SSL Certificate Monitor on the App Store](https://apps.apple.com/us/app/ssl-reminder/id6786519365)
-
-### Support
-
-For product support, privacy questions, or troubleshooting:
-
-- Visit the [SSL Certificate Monitor Support page](https://ssl.opshome.run/support/)
-- Email [support@opshome.run](mailto:support@opshome.run)
-- Include the app version, iOS/iPadOS version, and a short description of the issue
-- Do not send private keys, passwords, or sensitive server credentials
+For troubleshooting, email [support@opshome.run](mailto:support@opshome.run) with the app version, iOS/iPadOS version and a short description of the issue. Do not send private keys, passwords or sensitive server credentials.
 
 ---
 
@@ -150,127 +85,69 @@ For product support, privacy questions, or troubleshooting:
 
 ### 产品介绍
 
-**SSL Certificate Monitor** 是一款专注公网 SSL/TLS 证书监控的 iPhone / iPad 应用，适合开发者、站长、独立开发者、Homelab 用户和小型团队。
+**SSL Certificate Monitor** 帮助开发者、站长、独立开发者和 Homelab 用户监控公网可达的 SSL/TLS 证书。
 
-添加公网 HTTPS 目标后，可按需指定自定义公网 HTTPS 端口，由云端每日更新证书状态。应用可展示到期风险与支持的 TLS 健康问题，通过 Apple 消息推送发送提醒，并支持 PDF 报告、目标导出、备份和还原。
+首页优先展示最近到期证书的大数字倒计时、域名和签发商。每日云端检测与 iPhone 推送持续跟踪续期风险，X.509 证书链、SAN 匹配和 TLS 连接信息则为问题排查提供依据。
 
-### 核心功能
 
-| 功能 | 说明 |
-| --- | --- |
-| **免费 15 个证书** | 无需创建账号即可监控最多 15 个公网 SSL/TLS 证书目标。 |
-| **iPhone 与 iPad 原生布局** | 针对 iPhone 和 iPad 分别优化界面与信息展示。 |
-| **每日云端检测** | 每日刷新证书状态与到期信息。 |
-| **Apple 消息推送** | 检测到支持的到期风险或检查失败时发送提醒。 |
-| **Certificate Health** | 识别到期风险、已过期、自签名、不受信任证书链、主机名不匹配和检测失败。 |
-| **证书详情** | 查看到期日期、剩余天数、签发者、主题、主机名、端口和当前状态。 |
-| **自定义 HTTPS 端口** | 除标准 443 外，也可监控公网可访问的其他 HTTPS 服务端口。 |
-| **PDF 报告** | 导出证书详情 PDF，用于复核、留档或分享。 |
-| **备份、导出与还原** | 导出监控目标，并可在更换设备后重新导入。 |
-| **签发者分组** | 按签发者与到期状态整理较大的证书清单。 |
-| **无需注册账号** | 无需创建 OpsHome 账号即可使用。 |
-| **无广告** | 保持专注，不加入广告内容。 |
-| **无需订阅** | 扩容采用一次性、非消耗型应用内购买。 |
 
-### 工作方式
 
-1. **添加公网 HTTPS 目标**  
-   输入主机名；如有需要，可指定公网可访问的自定义 HTTPS 端口。
+### 证书分析
 
-2. **云端每日检测**  
-   服务更新证书状态、到期信息以及支持的健康信号。
+证书详情可包括：
 
-3. **接收 Apple 消息推送**  
-   检测到支持的到期条件或检查失败时，可向 iPhone 发送提醒。
+- 到期日期、剩余天数、签发商、证书主题与最近检测时间
+- 可用的根证书、中间证书和站点证书信息
+- SHA-256 指纹与证书序列号
+- 公钥算法、密钥长度与签名算法
+- SAN 保护名称及精确、通配符域名匹配
+- 握手协商的 TLS 协议和密码套件
+- 信任结果、域名不匹配、自签名证书和支持的检测失败
 
-4. **查看、导出或备份**  
-   查看证书健康状态、导出 PDF 报告，并通过导入/导出工具迁移监控目标。
+**名称匹配、到期状态和证书信任分别评估。** SAN 匹配本身不代表证书可信、未过期或安全。证书链详情取决于服务端可获取的证据。
 
-### Certificate Health
+健康概览区分正常、临近到期、已过期和检测失败的证书。PDF 结论基于现有检测证据，信息不完整或过旧时，不应视为完整的安全评估。
 
-Certificate Health 将证书到期信息与实用 TLS 健康信号集中展示，帮助快速识别：
+### 免费额度与容量扩展
 
-- 即将到期与已过期证书
-- 自签名证书
-- 不受信任的证书链
-- 主机名或域名不匹配
-- 证书检测失败
-- 需要优先处理的问题
+| 方案 | 证书监控容量 |
+| --- | ---: |
+| 新用户 | 赠送 3 个额度 |
+| 扩容包 | 增加 +2、+10、+50、+100 或 +500 个额度 |
 
-### 容量扩展
+扩容采用**一次性、非消耗型内购**，无需周期性订阅。每种扩容包可购买一次，不同扩容包可以叠加。证书分析功能对所有用户开放，内购用于增加监控容量。
 
-SSL Certificate Monitor 默认提供 **15 个免费证书槽位**。需要更大容量时，可通过一次性、非消耗型 IAP 永久增加槽位：
+当前价格以 App 内显示为准，可能因 App Store 地区而异。已购买项目支持恢复。将云端监控迁移至其他设备时，使用 App 内的迁移流程，激活会转移到接收设备。
 
-| 方案 | 增加容量 | 美元参考价 |
-| --- | ---: | ---: |
-| Free | 已包含 15 个 | $0 |
-| +50 | 增加 50 个 | $3.99 |
-| +100 | 增加 100 个 | $8.99 |
-| +500 | 增加 500 个 | $19.99 |
+### 隐私
 
-以上为美元参考价格，实际 App Store 价格可能因国家或地区不同。已购买的扩容项目可通过 App Store 恢复购买。
+公网证书监控不需要服务器密码、DNS 凭据或证书私钥。
 
-### 隐私优先
-
-公网证书监控**不需要**服务器密码、DNS 凭据或证书私钥。
-
-启用云端监控后，服务可能处理：
-
-- 用户添加的证书目标，包括主机和端口
-- 匿名设备标识符
-- Apple 消息推送通知令牌
-- 证书状态摘要
-- 临时详细检测记录
-
-SSL Certificate Monitor **不会收集**：
-
-- 服务器密码
-- 证书私钥
-- DNS 凭据
-- 网站内容
-- 用于账号注册的个人身份信息
-
-详细检测记录保留 **48 小时**；之后仅保留最新状态摘要和最近一次成功检测摘要。用户可在 App 内删除云端数据。
 
 查看完整的[隐私政策](https://ssl.opshome.run/zh-cn/privacy/)。
 
 ### 监控范围
 
-云端检测面向**公网 SSL/TLS 服务**。局域网、仅 VPN 可访问、NAS、Proxmox、路由器、内部管理面板等非公开目标可能无法由云端检测服务访问。
+云端检测需要**公网可达的 SSL/TLS 服务及端口**。仅能通过局域网、VPN、NAS、路由器或内部基础设施访问的服务，可能无法由云端检测。
 
-SSL Certificate Monitor 不能替代证书颁发机构、反向代理配置、证书自动续期系统或完整的基础设施监控平台。
+自动检测每日运行，属于证书监控，并非持续的网站可用性监控。应用不能替代证书颁发机构、服务器配置、自动续期系统或完整基础设施监控平台。
 
-### 需要更完整的基础设施监控？
+如需网站可用性、私网、Docker Probe、Synology、Proxmox、VMware、Linux 主机、容器和事件监控，可使用 [OpsHome NOC](https://app.opshome.run/)。
 
-如果还需要可用性监控、内网、Docker Probe、Synology、Proxmox、VMware、Linux 主机、Incidents、历史数据和 Web Console，可使用 **OpsHome NOC**。
+### 下载与支持
 
-[了解 OpsHome NOC](https://app.opshome.run/)
+[在 App Store 下载](https://apps.apple.com/us/app/ssl-reminder/id6786519365) · [产品网站](https://ssl.opshome.run/zh-cn/) · [支持](https://ssl.opshome.run/zh-cn/support/)
 
-### App Store
-
-[在 App Store 下载 SSL Certificate Monitor](https://apps.apple.com/us/app/ssl-reminder/id6786519365)
-
-### 支持
-
-如需产品支持、隐私咨询或问题排查：
-
-- 访问 [SSL Certificate Monitor 支持页面](https://ssl.opshome.run/zh-cn/support/)
-- 邮件联系 [support@opshome.run](mailto:support@opshome.run)
-- 请提供 App 版本、iOS/iPadOS 版本和简短的问题描述
-- 请勿发送证书私钥、密码或敏感服务器凭据
+排查问题时，请发送邮件至 [support@opshome.run](mailto:support@opshome.run)，附上 App 版本、iOS/iPadOS 版本和简短的问题描述。请勿发送私钥、密码或敏感服务器凭据。
 
 
-
----
 
 <div align="center">
 
-**Free to start. Expand once. Keep certificate risk visible.**  
-**免费开始，一次扩容，让证书风险持续可见。**
+**Daily certificate checks. Clear renewal priorities.**  
+**每日检查证书，清晰安排续期。**
 
-[Website](https://ssl.opshome.run) · [App Store](https://apps.apple.com/us/app/ssl-reminder/id6786519365) · [Privacy](https://ssl.opshome.run/privacy/) · [Support](https://ssl.opshome.run/support/)
-
-<br>
+[Website](https://ssl.opshome.run/) · [App Store](https://apps.apple.com/us/app/ssl-reminder/id6786519365) · [Privacy](https://ssl.opshome.run/privacy/) · [Support](https://ssl.opshome.run/support/)
 
 © 2026 OpsHome™. All rights reserved.
 
